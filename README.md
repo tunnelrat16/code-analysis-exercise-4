@@ -39,4 +39,3 @@ function (number){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it converts a number to a reversed array of digits
