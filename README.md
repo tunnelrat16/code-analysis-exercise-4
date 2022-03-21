@@ -21,16 +21,16 @@ function (number){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input | Output   |
+| ----- | ------   |
+|  54   | [0, 1]   | 
+|  12   | [0, 1]   | 
+|  324  | [0, 1, 2]| 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes an inputted number and returns an array with the index numbers that match the number of digits in the inputted number.</td>
   </tr>
 </table>
 
