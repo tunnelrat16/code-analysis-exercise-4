@@ -13,7 +13,7 @@ function (number){
   let reversedNumberArray = numberArray.reverse()
 
   let newArray = []
-  for (number in reversedNumberArray){
+  for (number of reversedNumberArray){
     newArray.push(+number)
   }
 
@@ -23,14 +23,14 @@ function (number){
 
 | Input | Output   |
 | ----- | ------   |
-|  54   | [0, 1]   | 
-|  12   | [0, 1]   | 
-|  324  | [0, 1, 2]| 
+|  54   | [4, 5]   | 
+|  12   | [2, 1]   | 
+|  324  | [4, 2, 3]| 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This program takes an inputted number and returns an array with the index numbers that match the number of digits in the inputted number.</td>
+    <td>This program takes an inputted number and returns an array with the digits of that number in reverse order.</td>
   </tr>
 </table>
 
